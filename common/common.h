@@ -20,7 +20,7 @@ extern "C" {
 // MESSAGE LENGTHS AND CRCS
 
 #ifndef MAVLINK_MESSAGE_LENGTHS
-#define MAVLINK_MESSAGE_LENGTHS {}    
+#define MAVLINK_MESSAGE_LENGTHS {}
 #endif
 
 #ifndef MAVLINK_MESSAGE_CRCS
@@ -2607,6 +2607,7 @@ typedef enum MAV_WINCH_STATUS_FLAG
 #include "./mavlink_msg_open_drone_id_system.h"
 #include "./mavlink_msg_open_drone_id_operator_id.h"
 #include "./mavlink_msg_open_drone_id_message_pack.h"
+#include "./mavlink_msg_tgn_state.h"
 
 // base include
 
